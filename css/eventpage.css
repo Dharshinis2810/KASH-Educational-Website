@@ -1,0 +1,265 @@
+body
+{
+    margin:0;
+}
+.navbar
+{
+    padding:10px;
+}
+.navbar-brand
+{
+    list-style-type:none;
+    color:#00008B;
+    font-family:'Oswald';
+    font-weight:600;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+.navbar-nav
+{
+    list-style-type:none;
+    color:black;
+    text-align: right;
+    font-family:'Oswald';
+    display:inline;
+    float:right;
+    margin-right:20px;
+    font-weight:600;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+.nav-link
+{
+    color:black;
+}
+.nav-link:hover{
+    color:#f47e2a;
+}
+/* header section */
+ 
+.header
+{
+    margin:0;
+    padding:0;
+}
+.header .img-parent
+{
+    position:relative;
+}
+.header img
+{
+    height:100vh;
+    width:100%;
+}
+.header .img-content
+{
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index:2;
+    text-align: center;
+    justify-content: center;
+ 
+}
+.header .img-content h2
+{
+    font-family: 'calibri';
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top:30px;
+}
+.header .img-content span
+{
+    font-family: 'calibri';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+ 
+}
+ 
+/* Event section start */
+ 
+.event
+{
+    margin:50px 50px 50px 5px;
+    align-items: center;
+    justify-content: center;
+}
+.event-content
+{
+    
+    padding:10px;
+    cursor:pointer;
+    background:linear-gradient(135deg,#6488F4,#A8E063);
+    margin-top:-20px;
+    margin-left:0px;
+    position:absolute;
+    border-radius: 30px;
+    padding:30px;
+ 
+}
+ 
+.event .col-sm-12
+{
+margin-bottom:500px;
+}
+.event-content h4
+{
+    font-weight: 600;
+    font-style:italic;
+    font-size:18px;
+    margin-bottom:5px;
+}
+.event-content span{
+    font-weight: 600;
+    font-style:italic;
+    font-size:18px;
+    margin-bottom:20px;
+    line-height: 30px;
+    padding: 20px;
+}
+.event-content h2
+{
+    font-weight: 600;
+    font-style:italic;
+    font-size:18px;
+    margin-top:5px;
+}
+.event-content a{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top:10px;
+    text-align: center;
+    justify-content: center;
+}
+.event img
+{
+    transition:0.6s;
+}
+.event img:hover
+{
+    transform:scale(1.1);
+    cursor:pointer;
+}
+.event a:hover{
+    color:#f47e2a;
+    text-decoration: none;
+ 
+}
+ 
+.event .event-first
+{
+    margin-bottom: 400px;
+    
+}
+.event .event-last
+{
+    margin-bottom: 400px;
+}
+/* footer section */
+ 
+footer
+{
+    margin:0px auto;
+    background-color:black;
+    padding: 50px 5px 50px;
+}
+ 
+footer h3{
+    color:white;
+    font-weight:500;
+    font-family:'oswald';
+    letter-spacing:1px;
+    line-height: 30px;
+    font-size: larger;
+ 
+   
+}
+footer h5{
+    color:white;
+    font-weight:500;
+    font-family:'oswald';
+    letter-spacing:1px;
+    line-height: 30px;
+    font-size: larger;
+    border-bottom:1px solid white;
+    border-spacing:15px;
+}
+footer h4{
+    color:#f7a870;
+    font-weight:500;
+    font-family:'oswald';
+    letter-spacing:1px;
+    line-height: 30px;
+    font-size: larger;
+}
+footer span{
+    color:white;
+    font-weight:400;
+    font-family:'oswald';
+    letter-spacing:1px;
+    line-height: 30px;
+    font-size: larger;
+}
+ 
+footer.col-sm-10
+{
+    margin-bottom:500px;
+}
+ 
+.foot-hover:hover
+{
+    color:#f7a870;
+    text-decoration: none;
+}
+ 
+.bg-black
+{
+    color:white;
+    padding:10px 420px;
+    text-align: center;
+    font-size: large;
+    font-weight:bold;
+}
+ 
+.text-center
+{
+    width:100%;
+    margin:auto auto;
+    text-align:center;
+    justify-content: center;
+    padding:20px 50px 10px ;
+}
+ 
+.col-sm-15
+{
+    color:#101010;
+    font-weight:500;
+    font-family:'oswald';
+    letter-spacing:1px;
+    line-height: 30px;
+    font-size: larger;
+}
+ 
+ 
+@media (max-width:380px)
+{
+    .header .img-content h2
+    {
+        font-family: 'calibri';
+        font-size: 35px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-top:30px;
+    }
+    .event .event-first
+{
+    margin-bottom: 700px;
+}
+.event .event-last
+{
+    margin-bottom: 700px;
+}
+}
